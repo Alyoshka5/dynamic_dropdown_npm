@@ -1,0 +1,23 @@
+{
+  "name": "@alyoshka/odin-dropdown-menu",
+  "version": "1.0.0",
+  "description": "Adds animated dropdown functionality",
+  "main": "menu.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alyoshka5/dynamic_dropdown_npm.git"
+  },
+  "keywords": [
+    "dropdown",
+    "menu"
+  ],
+  "author": "Alyoshka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alyoshka5/dynamic_dropdown_npm/issues"
+  },
+  "homepage": "https://github.com/Alyoshka5/dynamic_dropdown_npm#readme"
+}

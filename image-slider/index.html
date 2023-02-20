@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Image Slider</title>
+</head>
+<body>
+    <div class="slider">
+        <button data-slide-change="-1" class="img-button prev-img">🠸</button>
+        <div class="frame">
+            <div class="container">
+                <img class="slider-image" src="https://images.unsplash.com/photo-1676113139624-1712f26a9372?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80">
+                <img class="slider-image" src="https://images.unsplash.com/photo-1675250349765-d076de3265e2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2157&q=80">
+                <img class="slider-image" src="https://images.unsplash.com/photo-1676221380399-7582ce75076d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80">
+                <img class="slider-image" src="https://images.unsplash.com/photo-1676408877707-a76e9f6682e6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80">
+            </div>
+        </div>
+        <button data-slide-change="1" class="img-button next-img">🠺</button>
+        <div class="slide-circles">
+            <div data-img-link="1" class="slide-circle active-circle"></div>
+            <div data-img-link="2" class="slide-circle"></div>
+            <div data-img-link="3" class="slide-circle"></div>
+            <div data-img-link="4" class="slide-circle"></div>
+        </div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
